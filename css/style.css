@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+
+#hero{
+	background-image: url("img/slide-twin-cooling.jpg");
+	background-size: cover;
+	background-position: top center;
+	min-height: 400px;
+	overflow: hidden;
+}
+
+#hero sup{
+	font-size: 14px;
+}
+
+#hero h1{
+	font-size: 40px;
+}
+
+#hero h2{
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.carousel-caption{
+	color: #000;
+	text-align: left;
+}
+
+.hero-blanco{
+	color:#fff;
+}
+
+.btn-oferta{
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border: solid 1px;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 40px;
+	border-color: #000;
+	margin-top: 10px;
+}
+
+.btn-oferta:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+#products{
+	padding: 40px;
+	text-align: center;
+}
+
+#products h2{
+	font-weight: 700;
+	padding-bottom: 40px;
+}
+
+#products h3{
+	margin-top: 20px;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.btn-info{
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	border: solid 1px;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 40px;
+	border-color: #000;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-info:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+footer{
+	padding: 40px;
+	background-color: #f2f2f2;
+	border-top: solid 0.5px;
+	border-color: #DCDCDC;
+}
+
+footer p{
+	font-size: 16px;
+}
+
+footer .redes{
+	font-size: 40px;
+}
+footer a{
+	color: #000;
+	text-decoration: none;
+}
+
+.footer1{
+	margin-bottom: 30px;
+}
+
+footer h4{
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
